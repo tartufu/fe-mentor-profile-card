@@ -14,18 +14,26 @@ export default function GenericCard({ width }) {
   };
 
   return (
-    <div style={{ width, border: "2px solid red", borderRadius: "16px" }}>
+    <div style={{ width, borderRadius: "16px" }}>
       <ProfileCardImg />
-      <ProfileDetails
-        name={userDetails.name}
-        age={userDetails.age}
-        location={userDetails.location}
-      />
-      <ProfileMetricsLayout
-        followers={userDetails.followers}
-        likes={userDetails.likes}
-        photos={userDetails.photos}
-      />
+      <div
+        style={{
+          backgroundColor: "white",
+          borderBottomLeftRadius: "16px",
+          borderBottomRightRadius: "16px",
+        }}
+      >
+        <ProfileDetails
+          name={userDetails.name}
+          age={userDetails.age}
+          location={userDetails.location}
+        />
+        <ProfileMetricsLayout
+          followers={userDetails.followers}
+          likes={userDetails.likes}
+          photos={userDetails.photos}
+        />
+      </div>
     </div>
   );
 }

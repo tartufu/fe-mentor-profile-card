@@ -6,14 +6,14 @@ export default function ProfileDetails({ name, age, location }) {
       style={{
         paddingTop: "48px",
         textAlign: "center",
-        border: "1px solid red",
+        backgroundColor: "white",
       }}
     >
       <p>
         <strong> {name} </strong> {age}
       </p>
       <p> {location} </p>
-      <hr></hr>
+      <hr />
     </div>
   );
 }

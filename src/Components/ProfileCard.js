@@ -7,8 +7,21 @@ import GenericCard from "./GenericCard";
 
 export default function ProfileCard() {
   return (
-    <div>
-      <Container>
+    <div style={{ backgroundColor: "hsl(185, 75%, 39%)" }}>
+      {/* <img
+        src="bg-pattern-top.svg"
+        style={{ position: "absolute", width: "50%", bottom: "50%" }}
+      />
+      <img
+        src="bg-pattern-top.svg"
+        style={{
+          position: "absolute",
+          width: "50%",
+          top: "50%",
+          left: "50%",
+        }}
+      /> */}
+      <Container style={{ zIndex: "5000000" }}>
         <Grid
           xs
           display="flex"

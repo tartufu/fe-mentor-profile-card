@@ -5,7 +5,7 @@ export default function ProfileCardImg() {
     <div
       style={{
         textAlign: "center",
-        backgroundColor: "aqua",
+        backgroundImage: "url('bg-pattern-card.svg')",
         borderTopLeftRadius: "16px",
         borderTopRightRadius: "16px",
       }}
@@ -18,6 +18,7 @@ export default function ProfileCardImg() {
           borderRadius: "50%",
           position: "relative",
           top: "48px",
+          overflow: "visible",
         }}
       ></img>
     </div>

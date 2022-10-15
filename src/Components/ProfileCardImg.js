@@ -14,7 +14,7 @@ export default function ProfileCardImg() {
         src="image-victor.jpg"
         style={{
           backgroundColor: "white",
-          border: "4px solid white",
+          border: "2px solid white",
           borderRadius: "50%",
           position: "relative",
           top: "48px",

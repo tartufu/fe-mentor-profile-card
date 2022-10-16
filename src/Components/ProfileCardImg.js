@@ -11,7 +11,7 @@ export default function ProfileCardImg() {
       }}
     >
       <img
-        alt="profile-picture"
+        alt="profile-face"
         src="image-victor.jpg"
         style={{
           backgroundColor: "white",

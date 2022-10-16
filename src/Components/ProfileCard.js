@@ -21,7 +21,7 @@ export default function ProfileCard() {
           left: "50%",
         }}
       /> */}
-      <Container style={{ zIndex: "5000000" }}>
+      <Container>
         <Grid
           xs
           display="flex"

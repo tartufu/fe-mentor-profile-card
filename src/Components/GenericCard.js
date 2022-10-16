@@ -14,7 +14,7 @@ export default function GenericCard({ width }) {
   };
 
   return (
-    <div style={{ width, borderRadius: "16px" }}>
+    <div style={{ minWidth: width, borderRadius: "16px" }}>
       <ProfileCardImg />
       <div
         style={{

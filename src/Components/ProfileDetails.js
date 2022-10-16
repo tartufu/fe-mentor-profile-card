@@ -9,10 +9,19 @@ export default function ProfileDetails({ name, age, location }) {
         backgroundColor: "white",
       }}
     >
-      <p>
-        <strong> {name} </strong> {age}
+      <p style={{ paddingTop: "0.5rem" }}>
+        <strong> {name} </strong>{" "}
+        <span style={{ color: "hsl(0, 0%, 59%)" }}>{age} </span>
       </p>
-      <p> {location} </p>
+      <p
+        style={{
+          fontSize: "0.5rem",
+          padding: "0.5rem 0 1rem 0",
+          color: "hsl(0, 0%, 59%)",
+        }}
+      >
+        {location}
+      </p>
       <hr />
     </div>
   );
